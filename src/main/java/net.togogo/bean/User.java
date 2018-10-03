@@ -24,26 +24,27 @@ public class User {
 
 
     public int getAge() {
-        System.out.println("我是一个日志");
+        System.out.println("我是一个日志")；
         return age;
     }
 
     public void setAge(int age) {
         int num=123+123;
-        System.out.println("年龄设置成功");
+
         this.age = age;
     }
 
     public String getName() {
-
-       System.out.println("我是一个日志");
-
+        
+       System.out.println("我是一个日志")；
+        
         return name;
     }
 
     public void setName(String name) {
+
         int num2=322+21223;
-        System.out.println("姓名设置成功");
+
         this.name = name;
     }
 
@@ -54,7 +55,8 @@ public class User {
 
     public void setSex(String sex) {
         int num=32;
-        System.out.println("性别设置成功");
+
+
         this.sex = sex;
     }
 
