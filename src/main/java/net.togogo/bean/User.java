@@ -46,6 +46,7 @@ public class User {
     }
 
     public String getSex() {
+        System.out.println("我也是一个日志");
         return sex;
     }
 
