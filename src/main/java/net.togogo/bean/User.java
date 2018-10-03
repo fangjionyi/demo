@@ -11,7 +11,7 @@ public class User {
     private int age;
     private String name;
     private String sex;
-
+   private String abc;
     public User() {
     }
 
@@ -19,6 +19,16 @@ public class User {
         this.age = age;
         this.name = name;
         this.sex = sex;
+    }
+    
+    private void setAbc(String abc){
+    
+        this.abc=abc;
+    }
+    
+    private String getAbc(){
+    
+        return this.abc;
     }
 
     public int getAge() {
