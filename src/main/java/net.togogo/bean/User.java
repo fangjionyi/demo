@@ -24,7 +24,7 @@ public class User {
 
 
     public int getAge() {
-        System.out.println("我是一个日志")；
+        System.out.println("我是一个日志");
         return age;
     }
 
@@ -36,7 +36,7 @@ public class User {
 
     public String getName() {
         
-       System.out.println("我是一个日志")；
+       System.out.println("我是一个日志");
         
         return name;
     }
