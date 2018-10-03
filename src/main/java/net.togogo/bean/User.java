@@ -26,6 +26,7 @@ public class User {
     }
 
     public void setAge(int age) {
+        System.out.println("年龄设置成功");
         this.age = age;
     }
 
@@ -34,6 +35,7 @@ public class User {
     }
 
     public void setName(String name) {
+        System.out.println("姓名设置成功");
         this.name = name;
     }
 
@@ -42,6 +44,7 @@ public class User {
     }
 
     public void setSex(String sex) {
+        System.out.println("性别设置成功");
         this.sex = sex;
     }
 
